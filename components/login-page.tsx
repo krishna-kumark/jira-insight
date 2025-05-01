@@ -20,7 +20,7 @@ export default function LoginPage({ onLogin }) {
     e.preventDefault()
     setError("")
     setIsLoading(true)
-
+    console.log("just for checking pr woking or not");
     try {
       // Simulate network delay
       await new Promise((resolve) => setTimeout(resolve, 800))
